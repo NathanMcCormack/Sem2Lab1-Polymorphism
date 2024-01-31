@@ -18,10 +18,8 @@ public class ProductApp {
             String productCode = sc.nextLine();  // read the product code
 
             // get the Product object "p"
-            // But this could be a Book or a Software Object? = ProductDB.getProduct(productCode);
+            Product p = ProductDB.getProduct(productCode);
 
-            // display the output
-            /*
             System.out.println();
             if (p != null) {
                 System.out.println("Description: " + p.toString());
@@ -37,7 +35,7 @@ public class ProductApp {
             System.out.print("Continue? (y/n): ");
             choice = sc.nextLine();
             System.out.println();
-            */
+
         }
     }
 }
