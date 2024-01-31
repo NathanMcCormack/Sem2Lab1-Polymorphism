@@ -30,6 +30,6 @@ public class Music extends Product{
 
     @Override
     public String toString() {
-        return super.toString() +"Description: " + "artist='" + artist + '\'' + ", label='" + label + '\'' + '}';
+        return super.toString() +"Description: " + "\nartist='" + artist  + "\nLabel='" + label;
     }
 }
